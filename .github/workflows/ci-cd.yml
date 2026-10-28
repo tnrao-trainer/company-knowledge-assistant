@@ -24,6 +24,18 @@ jobs:
           pip install -r requirements.txt
           pip install pytest httpx
 
+      - name: Install and start Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve &
+          # wait until ready
+          for i in {1..30}; do
+            curl -s http://localhost:11434/api/tags && break
+            sleep 2
+          done
+          ollama pull llama3.2   # or whatever model your app uses
+          ollama pull nomic-embed-text  # if you use embeddings
+
       - name: Build vector index
         run: python scripts/build_index.py
 
