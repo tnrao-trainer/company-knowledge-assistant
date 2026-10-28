@@ -1,0 +1,20 @@
+How to Request a Laptop or Hardware
+
+Process
+1. Go to the IT Service Desk portal: https://servicedesk.company.com
+2. Click "New Request" → "Hardware"
+3. Select "Laptop Request" or the specific device needed
+4. Fill in the business justification
+5. Submit for manager approval
+
+Standard Laptops
+- MacBook Pro 14" (Engineering / Design)
+- Dell XPS 15 (General staff)
+- ThinkPad T14 (Finance / Admin)
+
+Expected Timeline
+- Standard request: 5–7 business days
+- Urgent request (with VP approval): 2 business days
+
+Returning Equipment
+When leaving the company, return all hardware to IT on your last working day.
