@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     # These will be overridden by CodeBuild environment variables (recommended)
-    IMAGE_REPO_NAME: "company-knowledge-assistant"
+    IMAGE_REPO_NAME: "company-knowledge-assistant-rg"
     IMAGE_TAG: "latest"
 
 phases:
